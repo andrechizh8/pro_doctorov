@@ -1,3 +1,4 @@
+import time
 from selene.support.shared import browser
 from selene import be, have
 
@@ -36,6 +37,7 @@ class DoctorsPage:
 
     def select_month(self, value):
         browser.all('.b-select__trigger-main-text').element_by(have.text("Месяц")).click()
+        time.sleep(2)
         browser.all('[class="b-select__option-main-text"]').element_by(have.text(value)).click()
         return self
 
