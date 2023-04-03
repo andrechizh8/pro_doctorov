@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dns_ui"
+name = "pro_dictorov_ui"
 version = "0.1.0"
 description = ""
 authors = ["andrechizh8 <andrechizh.ru@yandex.ru>"]
